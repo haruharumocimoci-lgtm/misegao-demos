@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="m-sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#efe8d8"/>
+      <stop offset="1" stop-color="#ddd5c4"/>
+    </linearGradient>
+    <linearGradient id="m-wall" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6f1e4"/>
+      <stop offset="1" stop-color="#e9e1cd"/>
+    </linearGradient>
+    <linearGradient id="m-noren" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3d4a63"/>
+      <stop offset="1" stop-color="#2c3850"/>
+    </linearGradient>
+    <linearGradient id="m-roof" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3a352e"/>
+      <stop offset="1" stop-color="#26221d"/>
+    </linearGradient>
+    <radialGradient id="m-lamp" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#f7dfa4"/>
+      <stop offset="1" stop-color="#e3bd6e"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#m-sky)"/>
+  <!-- 月 -->
+  <circle cx="676" cy="86" r="40" fill="#b5985a" opacity="0.35"/>
+  <circle cx="676" cy="86" r="40" fill="none" stroke="#b5985a" stroke-width="2" opacity="0.5"/>
+  <!-- 地面 -->
+  <rect y="500" width="800" height="100" fill="#c9bfa9"/>
+  <g fill="#b8ad95">
+    <ellipse cx="140" cy="530" rx="60" ry="9"/><ellipse cx="330" cy="548" rx="76" ry="10"/>
+    <ellipse cx="560" cy="532" rx="66" ry="9"/><ellipse cx="720" cy="552" rx="54" ry="8"/>
+  </g>
+  <!-- 店舗の壁 -->
+  <rect x="80" y="180" width="640" height="320" fill="url(#m-wall)"/>
+  <!-- 瓦屋根 -->
+  <path d="M48 184 q 352 -34 704 0 l 0 -12 q -352 -46 -704 0 z" fill="url(#m-roof)"/>
+  <rect x="48" y="180" width="704" height="16" rx="6" fill="#2f2b26"/>
+  <g fill="#3a352e">
+    <circle cx="110" cy="188" r="8"/><circle cx="230" cy="184" r="8"/><circle cx="350" cy="182" r="8"/>
+    <circle cx="470" cy="182" r="8"/><circle cx="590" cy="184" r="8"/><circle cx="700" cy="188" r="8"/>
+  </g>
+  <!-- 左右の格子窓 -->
+  <g>
+    <rect x="112" y="240" width="150" height="220" fill="#3a352e"/>
+    <g fill="#8a6a44">
+      <rect x="120" y="248" width="134" height="204" fill="#4a4238"/>
+      <rect x="126" y="248" width="8" height="204"/><rect x="150" y="248" width="8" height="204"/>
+      <rect x="174" y="248" width="8" height="204"/><rect x="198" y="248" width="8" height="204"/>
+      <rect x="222" y="248" width="8" height="204"/><rect x="246" y="248" width="8" height="204"/>
+    </g>
+    <rect x="112" y="336" width="150" height="10" fill="#7a5a38"/>
+  </g>
+  <g>
+    <rect x="538" y="240" width="150" height="220" fill="#3a352e"/>
+    <g fill="#8a6a44">
+      <rect x="546" y="248" width="134" height="204" fill="#4a4238"/>
+      <rect x="552" y="248" width="8" height="204"/><rect x="576" y="248" width="8" height="204"/>
+      <rect x="600" y="248" width="8" height="204"/><rect x="624" y="248" width="8" height="204"/>
+      <rect x="648" y="248" width="8" height="204"/><rect x="672" y="248" width="8" height="204"/>
+    </g>
+    <rect x="538" y="336" width="150" height="10" fill="#7a5a38"/>
+  </g>
+  <!-- 入口（引き戸） -->
+  <rect x="296" y="252" width="208" height="248" fill="#2f2b26"/>
+  <rect x="304" y="260" width="94" height="240" fill="#4a4238"/>
+  <rect x="402" y="260" width="94" height="240" fill="#544b40"/>
+  <g fill="#6e5f4c" opacity="0.85">
+    <rect x="310" y="266" width="82" height="6"/><rect x="310" y="300" width="82" height="6"/>
+    <rect x="310" y="334" width="82" height="6"/><rect x="408" y="266" width="82" height="6"/>
+    <rect x="408" y="300" width="82" height="6"/><rect x="408" y="334" width="82" height="6"/>
+    <rect x="346" y="266" width="6" height="234"/><rect x="444" y="266" width="6" height="234"/>
+  </g>
+  <!-- 暖簾 -->
+  <rect x="284" y="236" width="232" height="10" rx="5" fill="#7a5a38"/>
+  <g>
+    <path d="M292 246 l 70 0 l 0 96 q -35 14 -70 0 z" fill="url(#m-noren)"/>
+    <path d="M366 246 l 70 0 l 0 96 q -35 14 -70 0 z" fill="url(#m-noren)"/>
+    <path d="M440 246 l 68 0 l 0 96 q -34 14 -68 0 z" fill="url(#m-noren)"/>
+    <!-- 暖簾の白抜き文字風の印 -->
+    <circle cx="400" cy="286" r="22" fill="none" stroke="#f6f2e8" stroke-width="3.5"/>
+    <path d="M400 270 l 0 32 M388 280 l 24 0 M390 296 q 10 8 20 0" stroke="#f6f2e8" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- 行灯 -->
+  <g transform="translate(230 402)">
+    <rect x="-6" y="76" width="52" height="12" rx="4" fill="#2f2b26"/>
+    <rect x="0" y="-8" width="40" height="88" rx="6" fill="url(#m-lamp)"/>
+    <rect x="0" y="-8" width="40" height="88" rx="6" fill="none" stroke="#2f2b26" stroke-width="4"/>
+    <line x1="0" y1="22" x2="40" y2="22" stroke="#2f2b26" stroke-width="3"/>
+    <line x1="0" y1="52" x2="40" y2="52" stroke="#2f2b26" stroke-width="3"/>
+    <path d="M12 4 q 8 -3 16 0 M12 34 l 16 0 M20 34 l 0 30" stroke="#7c3b2b" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+  </g>
+  <!-- 盛り塩と打ち水の桶 -->
+  <path d="M540 486 l 24 0 l -12 -22 z" fill="#f6f2e8"/>
+  <g transform="translate(600 462)">
+    <path d="M-24 0 l 48 0 l -6 30 l -36 0 z" fill="#8a6a44"/>
+    <ellipse cx="0" cy="0" rx="24" ry="7" fill="#6e5236"/>
+    <ellipse cx="0" cy="1" rx="18" ry="5" fill="#9db4b0"/>
+  </g>
+  <!-- 竹 -->
+  <g transform="translate(730 300)">
+    <rect x="-6" y="-60" width="12" height="260" rx="6" fill="#5d7d5e"/>
+    <line x1="-6" y1="10" x2="6" y2="10" stroke="#4c6b4f" stroke-width="4"/>
+    <line x1="-6" y1="90" x2="6" y2="90" stroke="#4c6b4f" stroke-width="4"/>
+    <path d="M0 -50 q 30 -30 62 -34 q -18 34 -62 44 z" fill="#5d7d5e"/>
+    <path d="M0 -20 q -28 -24 -56 -26 q 14 30 56 36 z" fill="#4c6b4f"/>
+  </g>
+  <g fill="#b5985a">
+    <circle cx="150" cy="110" r="3" opacity="0.45"/><circle cx="480" cy="90" r="3" opacity="0.4"/>
+    <circle cx="60" cy="330" r="3" opacity="0.3"/>
+  </g>
+</svg>
