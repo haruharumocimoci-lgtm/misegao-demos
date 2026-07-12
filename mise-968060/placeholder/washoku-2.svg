@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="s-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf7f0"/>
+      <stop offset="1" stop-color="#eae2d0"/>
+    </linearGradient>
+    <linearGradient id="s-plate" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3a352e"/>
+      <stop offset="1" stop-color="#26221d"/>
+    </linearGradient>
+    <linearGradient id="s-maguro" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#c0503c"/>
+      <stop offset="1" stop-color="#9c3f2e"/>
+    </linearGradient>
+    <linearGradient id="s-salmon" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e89a63"/>
+      <stop offset="1" stop-color="#d97f45"/>
+    </linearGradient>
+    <linearGradient id="s-shiromi" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6ead8"/>
+      <stop offset="1" stop-color="#e8cfae"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#s-bg)"/>
+  <circle cx="112" cy="104" r="48" fill="none" stroke="#b5985a" stroke-width="2.5" opacity="0.5"/>
+  <path d="M80 60 q 240 -14 420 -6 t 240 10" stroke="#2f2b26" stroke-width="3" opacity="0.07" fill="none"/>
+  <!-- 皿の影 -->
+  <ellipse cx="400" cy="452" rx="330" ry="30" fill="#2f2b26" opacity="0.15"/>
+  <!-- 丸大皿（墨釉） -->
+  <ellipse cx="400" cy="360" rx="330" ry="120" fill="url(#s-plate)"/>
+  <ellipse cx="400" cy="352" rx="300" ry="102" fill="#332e28"/>
+  <ellipse cx="400" cy="352" rx="300" ry="102" fill="none" stroke="#b5985a" stroke-width="2" opacity="0.5"/>
+  <!-- 大根のつま（山） -->
+  <g transform="translate(400 316)">
+    <ellipse cx="0" cy="10" rx="96" ry="34" fill="#f0ebdd"/>
+    <g stroke="#f9f6ee" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M-70 8 q 14 -34 2 -56"/><path d="M-44 14 q 20 -34 10 -62"/>
+      <path d="M-16 10 q 8 -40 -4 -60"/><path d="M12 16 q 22 -32 12 -60"/>
+      <path d="M40 10 q 6 -36 -6 -54"/><path d="M64 14 q 18 -30 8 -52"/>
+    </g>
+  </g>
+  <!-- 紫蘇の葉 -->
+  <path d="M232 350 q 60 -30 108 6 q -52 34 -108 -6 z" fill="#4c6b4f"/>
+  <path d="M240 350 q 46 -2 92 4" stroke="#37503b" stroke-width="3" fill="none" opacity="0.7"/>
+  <!-- 鮪 -->
+  <g transform="rotate(-6 300 362)">
+    <path d="M252 330 l 84 0 q 12 0 12 12 l 0 46 q 0 12 -12 12 l -84 0 q 9 -34 0 -70 z" fill="url(#s-maguro)"/>
+    <path d="M284 334 q 7 30 0 62 M312 334 q 7 30 0 62" stroke="#f6f2e8" stroke-width="3.5" opacity="0.7" fill="none"/>
+    <path d="M268 330 l 84 0 q 12 0 12 12 l 0 46 q 0 12 -12 12 l -84 0 q 9 -34 0 -70 z" fill="url(#s-maguro)" transform="translate(38 -14)"/>
+  </g>
+  <!-- サーモン -->
+  <g transform="rotate(4 468 380)">
+    <path d="M420 352 l 88 0 q 12 0 12 12 l 0 44 q 0 12 -12 12 l -88 0 q 9 -32 0 -68 z" fill="url(#s-salmon)"/>
+    <path d="M448 356 q 8 28 0 60 M478 356 q 8 28 0 60" stroke="#fbe9d3" stroke-width="4" opacity="0.85" fill="none"/>
+  </g>
+  <!-- 白身（鯛） -->
+  <g transform="rotate(-3 560 340)">
+    <path d="M520 314 l 76 0 q 10 0 10 10 l 0 42 q 0 10 -10 10 l -76 0 q 8 -30 0 -62 z" fill="url(#s-shiromi)"/>
+    <path d="M546 318 q 6 26 0 54 M570 318 q 6 26 0 54" stroke="#d9a878" stroke-width="3" opacity="0.55" fill="none"/>
+    <path d="M520 314 l 76 0 l 0 8 l -76 2 q 4 -6 0 -10 z" fill="#c66a5a" opacity="0.6"/>
+  </g>
+  <!-- 烏賊（細切り） -->
+  <g stroke="#fbf8f0" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.95">
+    <path d="M356 402 q 22 -8 44 0"/><path d="M352 414 q 26 -10 52 0"/><path d="M360 426 q 20 -8 40 0"/>
+  </g>
+  <!-- 山葵・菊 -->
+  <path d="M508 416 q 12 -20 32 -12 q -4 22 -32 12 z" fill="#7a9455"/>
+  <g transform="translate(566 398)">
+    <circle cx="0" cy="0" r="12" fill="#e2c94f"/>
+    <g fill="#efd96a">
+      <ellipse cx="0" cy="-15" rx="5" ry="8"/><ellipse cx="13" cy="-8" rx="5" ry="8" transform="rotate(60 13 -8)"/>
+      <ellipse cx="13" cy="8" rx="5" ry="8" transform="rotate(120 13 8)"/><ellipse cx="0" cy="15" rx="5" ry="8"/>
+      <ellipse cx="-13" cy="8" rx="5" ry="8" transform="rotate(60 -13 8)"/><ellipse cx="-13" cy="-8" rx="5" ry="8" transform="rotate(120 -13 -8)"/>
+    </g>
+  </g>
+  <g fill="#b5985a">
+    <circle cx="680" cy="120" r="3" opacity="0.45"/><circle cx="220" cy="180" r="3" opacity="0.4"/>
+    <circle cx="740" cy="240" r="3" opacity="0.35"/>
+  </g>
+</svg>

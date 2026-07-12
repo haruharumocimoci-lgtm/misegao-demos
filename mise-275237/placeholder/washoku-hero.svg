@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="wbg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf7f0"/>
+      <stop offset="0.72" stop-color="#f2ecdf"/>
+      <stop offset="1" stop-color="#e6ddcb"/>
+    </linearGradient>
+    <radialGradient id="wglow" cx="0.62" cy="0.55" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plate" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3a352e"/>
+      <stop offset="1" stop-color="#26221d"/>
+    </linearGradient>
+    <linearGradient id="sashimi1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#c0503c"/>
+      <stop offset="1" stop-color="#9c3f2e"/>
+    </linearGradient>
+    <linearGradient id="sashimi2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f3d9c4"/>
+      <stop offset="1" stop-color="#e4b898"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wbg)"/>
+  <rect width="1600" height="1000" fill="url(#wglow)"/>
+  <!-- 掛け軸風の縦帯（余白のアクセント） -->
+  <rect x="120" y="0" width="6" height="1000" fill="#2f2b26" opacity="0.10"/>
+  <rect x="150" y="0" width="2" height="1000" fill="#2f2b26" opacity="0.08"/>
+  <!-- 右上の落款風の金の円 -->
+  <circle cx="1400" cy="170" r="86" fill="none" stroke="#b5985a" stroke-width="3" opacity="0.55"/>
+  <circle cx="1400" cy="170" r="58" fill="#b5985a" opacity="0.12"/>
+  <!-- 墨のかすれ線（水平） -->
+  <g stroke="#2f2b26" stroke-linecap="round" fill="none">
+    <path d="M240 260 q 300 -18 620 -8 t 560 14" stroke-width="5" opacity="0.10"/>
+    <path d="M300 830 q 340 16 640 6 t 460 -10" stroke-width="4" opacity="0.08"/>
+  </g>
+  <!-- 笹の葉 -->
+  <g opacity="0.85">
+    <path d="M430 600 q -150 -60 -230 -190 q 150 20 230 130 z" fill="#4c6b4f"/>
+    <path d="M445 630 q -180 -20 -290 -110 q 170 -10 285 70 z" fill="#5d7d5e"/>
+    <path d="M430 600 q -110 -95 -140 -175" stroke="#37503b" stroke-width="4" fill="none" opacity="0.6"/>
+  </g>
+  <!-- 皿の影 -->
+  <ellipse cx="840" cy="742" rx="430" ry="42" fill="#2f2b26" opacity="0.12"/>
+  <!-- 長角皿（墨色） -->
+  <g transform="rotate(-2 840 640)">
+    <rect x="440" y="560" width="800" height="150" rx="14" fill="url(#plate)"/>
+    <rect x="452" y="572" width="776" height="126" rx="10" fill="none" stroke="#b5985a" stroke-width="2" opacity="0.5"/>
+    <!-- 大根のつま -->
+    <g stroke="#f6f2e8" stroke-width="3" stroke-linecap="round" opacity="0.9" fill="none">
+      <path d="M560 640 q 18 -34 6 -58"/><path d="M584 646 q 22 -30 14 -60"/>
+      <path d="M608 640 q 10 -36 -2 -56"/><path d="M632 648 q 24 -28 12 -58"/>
+      <path d="M654 642 q 8 -34 -4 -54"/>
+    </g>
+    <!-- 刺身（赤身） -->
+    <g>
+      <path d="M700 596 l 92 0 q 14 0 14 14 l 0 52 q 0 14 -14 14 l -92 0 q 10 -40 0 -80 z" fill="url(#sashimi1)"/>
+      <path d="M736 600 q 8 36 0 72" stroke="#f6f2e8" stroke-width="4" opacity="0.7" fill="none"/>
+      <path d="M768 600 q 8 36 0 72" stroke="#f6f2e8" stroke-width="4" opacity="0.7" fill="none"/>
+      <path d="M740 596 l 92 0 q 14 0 14 14 l 0 52 q 0 14 -14 14 l -92 0 q 10 -40 0 -80 z" fill="url(#sashimi1)" transform="translate(126 -6) rotate(3 786 636)"/>
+    </g>
+    <!-- 白身の刺身 -->
+    <g transform="translate(0 4)">
+      <path d="M1000 598 l 84 0 q 12 0 12 12 l 0 50 q 0 12 -12 12 l -84 0 q 8 -36 0 -74 z" fill="url(#sashimi2)"/>
+      <path d="M1032 602 q 6 32 0 66" stroke="#c98f6b" stroke-width="3" opacity="0.6" fill="none"/>
+      <path d="M1058 602 q 6 32 0 66" stroke="#c98f6b" stroke-width="3" opacity="0.6" fill="none"/>
+    </g>
+    <!-- 山葵と紫蘇 -->
+    <ellipse cx="948" cy="672" rx="26" ry="16" fill="#7a9455"/>
+    <path d="M1130 606 q 44 -12 66 16 q -40 20 -66 -16 z" fill="#5c4a6e" opacity="0.85"/>
+  </g>
+  <!-- 箸と箸置き -->
+  <g transform="rotate(-4 840 812)">
+    <rect x="560" y="806" width="560" height="9" rx="4.5" fill="#7a5a38"/>
+    <rect x="560" y="820" width="560" height="9" rx="4.5" fill="#8a6a44"/>
+    <rect x="596" y="796" width="46" height="42" rx="8" fill="#b5985a" opacity="0.9"/>
+  </g>
+  <!-- 猪口（地酒） -->
+  <g transform="translate(1256 640)">
+    <ellipse cx="0" cy="86" rx="64" ry="10" fill="#2f2b26" opacity="0.12"/>
+    <path d="M-52 0 q 4 68 52 82 q 48 -14 52 -82 z" fill="#f6f2e8" stroke="#ddd5c4" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="52" ry="14" fill="#e9e2d2"/>
+    <ellipse cx="0" cy="2" rx="42" ry="10" fill="#f3edda"/>
+    <path d="M-52 0 q 4 68 52 82" fill="none" stroke="#b5985a" stroke-width="3" opacity="0.7"/>
+  </g>
+  <!-- 舞い落ちる金の粒 -->
+  <g fill="#b5985a">
+    <circle cx="320" cy="180" r="4" opacity="0.5"/><circle cx="1180" cy="130" r="3" opacity="0.45"/>
+    <circle cx="540" cy="120" r="3" opacity="0.4"/><circle cx="1480" cy="420" r="4" opacity="0.4"/>
+    <circle cx="260" cy="460" r="3" opacity="0.35"/><circle cx="990" cy="200" r="3" opacity="0.35"/>
+  </g>
+</svg>

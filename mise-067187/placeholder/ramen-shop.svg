@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgS" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#161413"/>
+      <stop offset="1" stop-color="#2c1a15"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5c96b"/>
+      <stop offset="1" stop-color="#d98f3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgS)"/>
+  <rect x="90" y="120" width="620" height="420" fill="#241d19"/>
+  <rect x="90" y="120" width="620" height="26" fill="#3a2e26"/>
+  <rect x="120" y="180" width="560" height="150" fill="#c8102e"/>
+  <path d="M120 180 h560 v8 h-560 z" fill="#8c0b20"/>
+  <g stroke="#241d19" stroke-width="10">
+    <line x1="260" y1="180" x2="260" y2="330"/>
+    <line x1="400" y1="180" x2="400" y2="330"/>
+    <line x1="540" y1="180" x2="540" y2="330"/>
+  </g>
+  <circle cx="190" cy="250" r="34" fill="none" stroke="#f5f0e6" stroke-width="6"/>
+  <circle cx="330" cy="250" r="34" fill="none" stroke="#f5f0e6" stroke-width="6"/>
+  <circle cx="470" cy="250" r="34" fill="none" stroke="#f5f0e6" stroke-width="6"/>
+  <circle cx="610" cy="250" r="34" fill="none" stroke="#f5f0e6" stroke-width="6"/>
+  <rect x="140" y="360" width="240" height="180" fill="url(#warm)" opacity="0.9"/>
+  <g stroke="#241d19" stroke-width="8">
+    <line x1="220" y1="360" x2="220" y2="540"/>
+    <line x1="300" y1="360" x2="300" y2="540"/>
+  </g>
+  <g transform="translate(560,430)">
+    <ellipse cx="0" cy="0" rx="46" ry="62" fill="#e03131"/>
+    <ellipse cx="0" cy="0" rx="46" ry="62" fill="none" stroke="#8c0b20" stroke-width="4"/>
+    <g stroke="#8c0b20" stroke-width="3" fill="none">
+      <path d="M-46 -20 h92"/><path d="M-46 0 h92"/><path d="M-46 20 h92"/>
+    </g>
+    <rect x="-14" y="-74" width="28" height="14" rx="4" fill="#3a2e26"/>
+    <rect x="-14" y="60" width="28" height="12" rx="4" fill="#3a2e26"/>
+  </g>
+  <rect x="430" y="380" width="90" height="160" fill="#3a2e26"/>
+  <rect x="440" y="390" width="70" height="70" fill="url(#warm)" opacity="0.7"/>
+</svg>
