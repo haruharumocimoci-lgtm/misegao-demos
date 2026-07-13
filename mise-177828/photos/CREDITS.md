@@ -42,6 +42,31 @@ photo URL は `https://www.pexels.com/photo/<ID>/` で確認できる。
 | cafe/dish-1.jpg | 15920112 |
 | cafe/dish-2.jpg | 33130816 |
 | cafe/dish-3.jpg | 19469279 |
+| soba/hero.jpg | 26727317 |
+| soba/shop.jpg | 29888413 |
+| soba/dish-1.jpg | 2098131 |
+| soba/dish-2.jpg | 24186433 |
+| soba/dish-3.jpg | 31318769 |
+| yakitori/hero.jpg | 27809236 |
+| yakitori/shop.jpg | 31416923 |
+| yakitori/dish-1.jpg | 30682902 |
+| yakitori/dish-2.jpg | 32754752 |
+| yakitori/dish-3.jpg | 30682936 |
+| italian/hero.jpg | 15119173 |
+| italian/shop.jpg | 10832897 |
+| italian/dish-1.jpg | 5531093 |
+| italian/dish-2.jpg | 18437684 |
+| italian/dish-3.jpg | 20545313 |
+| bar/hero.jpg | 14816866 |
+| bar/shop.jpg | 11538291 |
+| bar/dish-1.jpg | 4485391 |
+| bar/dish-2.jpg | 8573419 |
+| bar/dish-3.jpg | 36630828 |
+| yoshoku/hero.jpg | 19902239 |
+| yoshoku/shop.jpg | 19965093 |
+| yoshoku/dish-1.jpg | 31843915 |
+| yoshoku/dish-2.jpg | 25524088 |
+| yoshoku/dish-3.jpg | 28893432 |
 
 ## 選定ルール
 
