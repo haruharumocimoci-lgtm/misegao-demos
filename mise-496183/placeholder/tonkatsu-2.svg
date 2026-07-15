@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="t2-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf7f0"/>
+      <stop offset="1" stop-color="#eae2d0"/>
+    </linearGradient>
+    <linearGradient id="t2-plate" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3a352e"/>
+      <stop offset="1" stop-color="#26221d"/>
+    </linearGradient>
+    <linearGradient id="t2-crust" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d19a4a"/>
+      <stop offset="1" stop-color="#a56b2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#t2-bg)"/>
+  <circle cx="112" cy="96" r="46" fill="none" stroke="#b5985a" stroke-width="2.5" opacity="0.5"/>
+  <path d="M60 530 q 200 14 340 6 t 340 -8" stroke="#2f2b26" stroke-width="3" opacity="0.08" fill="none"/>
+  <!-- 皿の影 -->
+  <ellipse cx="400" cy="452" rx="300" ry="30" fill="#2f2b26" opacity="0.15"/>
+  <!-- 丸皿（黒釉） -->
+  <ellipse cx="400" cy="340" rx="300" ry="130" fill="url(#t2-plate)"/>
+  <ellipse cx="400" cy="332" rx="276" ry="112" fill="none" stroke="#b5985a" stroke-width="2" opacity="0.4"/>
+  <!-- キャベツ（奥） -->
+  <g transform="translate(520 290)">
+    <ellipse cx="0" cy="24" rx="112" ry="34" fill="#c8d9a0"/>
+    <ellipse cx="-12" cy="8" rx="94" ry="32" fill="#d8e6b6"/>
+    <ellipse cx="12" cy="-6" rx="74" ry="28" fill="#e4eecb"/>
+    <g stroke="#a9c37e" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M-60 14 q 24 -14 56 -8"/>
+      <path d="M-30 34 q 30 -12 66 -4"/>
+      <path d="M-6 -8 q 24 -8 48 0"/>
+    </g>
+    <circle cx="72" cy="34" r="16" fill="#c0503c"/>
+    <path d="M70 20 q 3 -7 8 -8" stroke="#4c6b4f" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- ひれかつ（一口サイズ4つ） -->
+  <g transform="translate(196 300)">
+    <ellipse cx="130" cy="106" rx="190" ry="18" fill="#000000" opacity="0.22"/>
+    <g>
+      <ellipse cx="0" cy="40" rx="52" ry="42" fill="url(#t2-crust)"/>
+      <ellipse cx="0" cy="34" rx="42" ry="32" fill="#e8b98a"/>
+      <ellipse cx="0" cy="30" rx="30" ry="22" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(104 -12)">
+      <ellipse cx="0" cy="40" rx="56" ry="44" fill="url(#t2-crust)"/>
+      <ellipse cx="0" cy="34" rx="46" ry="34" fill="#e8b98a"/>
+      <ellipse cx="0" cy="30" rx="33" ry="24" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(212 4)">
+      <ellipse cx="0" cy="40" rx="52" ry="42" fill="url(#t2-crust)"/>
+      <ellipse cx="0" cy="34" rx="42" ry="32" fill="#e8b98a"/>
+      <ellipse cx="0" cy="30" rx="30" ry="22" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(108 66)">
+      <ellipse cx="0" cy="34" rx="50" ry="38" fill="url(#t2-crust)"/>
+      <ellipse cx="0" cy="28" rx="40" ry="29" fill="#e8b98a"/>
+      <ellipse cx="0" cy="25" rx="28" ry="20" fill="#f6e0cd"/>
+    </g>
+    <!-- 衣の質感 -->
+    <g fill="#8a5a22" opacity="0.5">
+      <circle cx="-18" cy="20" r="2.5"/><circle cx="16" cy="52" r="2.5"/>
+      <circle cx="90" cy="10" r="2.5"/><circle cx="128" cy="38" r="2.5"/>
+      <circle cx="200" cy="24" r="2.5"/><circle cx="232" cy="52" r="2.5"/>
+      <circle cx="94" cy="86" r="2.5"/><circle cx="134" cy="108" r="2.5"/>
+    </g>
+  </g>
+  <!-- レモンと辛子（手前） -->
+  <g transform="translate(300 420)">
+    <path d="M-26 0 a 26 26 0 0 1 52 0 z" fill="#f2d24b"/>
+    <path d="M-20 -2 a 20 20 0 0 1 40 0 z" fill="#f9e98e"/>
+    <g stroke="#e6c437" stroke-width="2" fill="none">
+      <path d="M0 -2 l 0 -18"/><path d="M0 -2 l -14 -13"/><path d="M0 -2 l 14 -13"/>
+    </g>
+  </g>
+  <ellipse cx="476" cy="428" rx="16" ry="8" fill="#d9b23a"/>
+  <!-- ソース入れ（奥） -->
+  <g transform="translate(660 210)">
+    <ellipse cx="0" cy="40" rx="34" ry="6" fill="#000000" opacity="0.14"/>
+    <path d="M-30 -8 q 2 38 30 46 q 28 -8 30 -46 z" fill="#4a3428"/>
+    <ellipse cx="0" cy="-8" rx="30" ry="9" fill="#5c4232"/>
+    <ellipse cx="0" cy="-8" rx="22" ry="6" fill="#3a2820"/>
+    <rect x="24" y="-26" width="26" height="8" rx="4" fill="#5c4232"/>
+  </g>
+  <g fill="#b5985a">
+    <circle cx="140" cy="200" r="3" opacity="0.45"/><circle cx="620" cy="100" r="3" opacity="0.4"/>
+    <circle cx="716" cy="470" r="3" opacity="0.35"/>
+  </g>
+</svg>

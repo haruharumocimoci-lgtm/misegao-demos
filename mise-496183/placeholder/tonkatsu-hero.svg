@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="tk-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf7f0"/>
+      <stop offset="0.72" stop-color="#f2ecdf"/>
+      <stop offset="1" stop-color="#e6ddcb"/>
+    </linearGradient>
+    <radialGradient id="tk-glow" cx="0.62" cy="0.55" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tk-plate" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3a352e"/>
+      <stop offset="1" stop-color="#26221d"/>
+    </linearGradient>
+    <linearGradient id="tk-crust" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d19a4a"/>
+      <stop offset="1" stop-color="#a56b2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#tk-bg)"/>
+  <rect width="1600" height="1000" fill="url(#tk-glow)"/>
+  <!-- 掛け軸風の縦帯（余白のアクセント） -->
+  <rect x="120" y="0" width="6" height="1000" fill="#2f2b26" opacity="0.10"/>
+  <rect x="150" y="0" width="2" height="1000" fill="#2f2b26" opacity="0.08"/>
+  <!-- 右上の落款風の金の円 -->
+  <circle cx="1380" cy="150" r="84" fill="none" stroke="#b5985a" stroke-width="3" opacity="0.5"/>
+  <circle cx="1380" cy="150" r="64" fill="none" stroke="#b5985a" stroke-width="1.5" opacity="0.35"/>
+  <!-- 皿の影 -->
+  <ellipse cx="800" cy="760" rx="520" ry="52" fill="#2f2b26" opacity="0.14"/>
+  <!-- 角皿（黒） -->
+  <rect x="330" y="470" width="940" height="290" rx="22" fill="url(#tk-plate)"/>
+  <rect x="348" y="488" width="904" height="254" rx="16" fill="none" stroke="#b5985a" stroke-width="2.5" opacity="0.4"/>
+  <!-- 千切りキャベツ -->
+  <g transform="translate(1050 570)">
+    <ellipse cx="0" cy="60" rx="180" ry="52" fill="#c8d9a0"/>
+    <ellipse cx="-20" cy="30" rx="150" ry="52" fill="#d8e6b6"/>
+    <ellipse cx="20" cy="6" rx="120" ry="46" fill="#e4eecb"/>
+    <g stroke="#a9c37e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M-100 30 q 40 -24 90 -12"/>
+      <path d="M-60 62 q 50 -20 110 -6"/>
+      <path d="M-10 -10 q 40 -14 80 0"/>
+      <path d="M-120 60 q 30 -26 70 -20"/>
+    </g>
+    <!-- プチトマト -->
+    <circle cx="118" cy="66" r="26" fill="#c0503c"/>
+    <circle cx="110" cy="58" r="8" fill="#e08a70" opacity="0.7"/>
+    <path d="M114 44 q 4 -10 12 -12" stroke="#4c6b4f" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- とんかつ（切り分け5枚） -->
+  <g transform="translate(430 560)">
+    <ellipse cx="200" cy="140" rx="250" ry="26" fill="#000000" opacity="0.22"/>
+    <g>
+      <path d="M0 40 q 10 -44 76 -46 l 8 116 q -66 6 -84 -26 z" fill="url(#tk-crust)"/>
+      <path d="M10 44 q 10 -32 62 -36 l 6 96 q -50 4 -66 -22 z" fill="#e8b98a"/>
+      <path d="M20 48 q 10 -24 46 -28 l 4 80 q -36 2 -48 -16 z" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(92 -8)">
+      <path d="M0 42 q 8 -46 78 -48 l 8 122 q -70 6 -88 -28 z" fill="url(#tk-crust)"/>
+      <path d="M10 46 q 8 -34 64 -38 l 6 100 q -52 4 -68 -24 z" fill="#e8b98a"/>
+      <path d="M20 50 q 8 -24 48 -30 l 4 84 q -38 2 -50 -16 z" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(188 -14)">
+      <path d="M0 44 q 8 -48 80 -50 l 8 126 q -72 6 -90 -28 z" fill="url(#tk-crust)"/>
+      <path d="M10 48 q 8 -36 66 -40 l 6 104 q -54 4 -70 -24 z" fill="#e8b98a"/>
+      <path d="M20 52 q 8 -26 50 -32 l 4 88 q -40 2 -52 -16 z" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(288 -10)">
+      <path d="M0 42 q 8 -46 78 -48 l 8 122 q -70 6 -88 -28 z" fill="url(#tk-crust)"/>
+      <path d="M10 46 q 8 -34 64 -38 l 6 100 q -52 4 -68 -24 z" fill="#e8b98a"/>
+      <path d="M20 50 q 8 -24 48 -30 l 4 84 q -38 2 -50 -16 z" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(382 -2)">
+      <path d="M0 40 q 8 -44 74 -46 l 8 116 q -66 6 -84 -26 z" fill="url(#tk-crust)"/>
+      <path d="M10 44 q 8 -32 60 -36 l 6 96 q -48 4 -64 -22 z" fill="#e8b98a"/>
+      <path d="M20 48 q 8 -22 44 -28 l 4 80 q -34 2 -46 -16 z" fill="#f6e0cd"/>
+    </g>
+    <!-- 衣の質感 -->
+    <g fill="#8a5a22" opacity="0.5">
+      <circle cx="30" cy="16" r="3"/><circle cx="120" cy="4" r="3"/><circle cx="222" cy="-2" r="3"/>
+      <circle cx="320" cy="6" r="3"/><circle cx="410" cy="16" r="3"/><circle cx="70" cy="60" r="3"/>
+      <circle cx="170" cy="52" r="3"/><circle cx="270" cy="48" r="3"/><circle cx="366" cy="56" r="3"/>
+    </g>
+  </g>
+  <!-- レモン -->
+  <g transform="translate(500 700)">
+    <path d="M-52 0 a 52 52 0 0 1 104 0 z" fill="#f2d24b"/>
+    <path d="M-44 -4 a 44 44 0 0 1 88 0 z" fill="#f9e98e"/>
+    <g stroke="#e6c437" stroke-width="3" fill="none">
+      <path d="M0 -4 l 0 -40"/><path d="M0 -4 l -30 -28"/><path d="M0 -4 l 30 -28"/>
+    </g>
+  </g>
+  <!-- 辛子 -->
+  <ellipse cx="1210" cy="710" rx="24" ry="12" fill="#d9b23a"/>
+  <!-- ご飯（左奥） -->
+  <g transform="translate(260 400)">
+    <ellipse cx="0" cy="86" rx="78" ry="12" fill="#000000" opacity="0.16"/>
+    <path d="M-72 20 q 8 60 72 72 q 64 -12 72 -72 z" fill="#f6f2e8" stroke="#ddd5c4" stroke-width="3"/>
+    <path d="M-64 20 a 64 28 0 0 1 128 0 q -28 -32 -64 -32 q -36 0 -64 32 z" fill="#ffffff"/>
+    <circle cx="-20" cy="0" r="6" fill="#f0ead9"/><circle cx="14" cy="-8" r="6" fill="#f0ead9"/>
+    <circle cx="34" cy="4" r="6" fill="#f0ead9"/>
+  </g>
+  <!-- 汁椀（右奥） -->
+  <g transform="translate(1350 420)">
+    <ellipse cx="0" cy="80" rx="72" ry="11" fill="#000000" opacity="0.16"/>
+    <path d="M-68 22 q 8 58 68 70 q 60 -12 68 -70 z" fill="#a3492f"/>
+    <path d="M-62 22 a 62 32 0 0 1 124 0 z" fill="#b0543a"/>
+    <ellipse cx="0" cy="-2" rx="38" ry="11" fill="#9c3f2e"/>
+    <path d="M-68 22 l 136 0" stroke="#5f2718" stroke-width="3" opacity="0.6"/>
+  </g>
+  <!-- 箸 -->
+  <g transform="rotate(-2 800 880)">
+    <rect x="480" y="866" width="640" height="9" rx="4.5" fill="#7a5a38"/>
+    <rect x="480" y="880" width="640" height="9" rx="4.5" fill="#8a6a44"/>
+    <rect x="516" y="856" width="44" height="42" rx="8" fill="#b5985a" opacity="0.9"/>
+  </g>
+  <!-- 金の粒 -->
+  <g fill="#b5985a">
+    <circle cx="240" cy="220" r="4" opacity="0.45"/><circle cx="1120" cy="160" r="4" opacity="0.4"/>
+    <circle cx="1460" cy="380" r="4" opacity="0.35"/><circle cx="360" cy="130" r="4" opacity="0.35"/>
+  </g>
+</svg>

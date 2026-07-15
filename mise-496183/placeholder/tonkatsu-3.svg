@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="t3-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf7f0"/>
+      <stop offset="1" stop-color="#eae2d0"/>
+    </linearGradient>
+    <linearGradient id="t3-don" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3f4a63"/>
+      <stop offset="1" stop-color="#2c3547"/>
+    </linearGradient>
+    <linearGradient id="t3-crust" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d19a4a"/>
+      <stop offset="1" stop-color="#a56b2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#t3-bg)"/>
+  <circle cx="680" cy="96" r="48" fill="none" stroke="#b5985a" stroke-width="2.5" opacity="0.5"/>
+  <path d="M60 530 q 200 14 340 6 t 340 -8" stroke="#2f2b26" stroke-width="3" opacity="0.08" fill="none"/>
+  <!-- 丼の影 -->
+  <ellipse cx="400" cy="486" rx="240" ry="28" fill="#2f2b26" opacity="0.15"/>
+  <!-- 丼（藍染） -->
+  <path d="M180 280 q 20 160 220 190 q 200 -30 220 -190 z" fill="url(#t3-don)"/>
+  <path d="M186 286 q 20 150 214 180 q 194 -30 214 -180 z" fill="none" stroke="#8fa3c8" stroke-width="3" opacity="0.35"/>
+  <!-- 丼の縁 -->
+  <ellipse cx="400" cy="280" rx="222" ry="58" fill="#33405c"/>
+  <ellipse cx="400" cy="276" rx="208" ry="50" fill="#f6f2e8"/>
+  <!-- 玉子とじ -->
+  <ellipse cx="400" cy="272" rx="192" ry="44" fill="#eec860"/>
+  <ellipse cx="380" cy="268" rx="160" ry="36" fill="#f4d97e"/>
+  <g fill="#f9e9ae" opacity="0.9">
+    <ellipse cx="300" cy="262" rx="42" ry="14"/>
+    <ellipse cx="470" cy="278" rx="48" ry="15"/>
+    <ellipse cx="392" cy="248" rx="36" ry="11"/>
+  </g>
+  <!-- かつ（玉子の上に4切れ） -->
+  <g transform="translate(258 216)">
+    <g transform="rotate(-4)">
+      <rect x="0" y="0" width="66" height="52" rx="10" fill="url(#t3-crust)"/>
+      <rect x="7" y="7" width="52" height="38" rx="7" fill="#e8b98a"/>
+      <rect x="14" y="13" width="38" height="26" rx="5" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(74 8) rotate(2)">
+      <rect x="0" y="0" width="70" height="54" rx="10" fill="url(#t3-crust)"/>
+      <rect x="7" y="7" width="56" height="40" rx="7" fill="#e8b98a"/>
+      <rect x="14" y="13" width="42" height="28" rx="5" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(152 2) rotate(-2)">
+      <rect x="0" y="0" width="68" height="53" rx="10" fill="url(#t3-crust)"/>
+      <rect x="7" y="7" width="54" height="39" rx="7" fill="#e8b98a"/>
+      <rect x="14" y="13" width="40" height="27" rx="5" fill="#f6e0cd"/>
+    </g>
+    <g transform="translate(228 10) rotate(3)">
+      <rect x="0" y="0" width="62" height="50" rx="10" fill="url(#t3-crust)"/>
+      <rect x="7" y="7" width="48" height="36" rx="7" fill="#e8b98a"/>
+      <rect x="14" y="13" width="34" height="24" rx="5" fill="#f6e0cd"/>
+    </g>
+  </g>
+  <!-- 三つ葉 -->
+  <g stroke="#4c6b4f" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M400 218 q 6 -18 22 -22"/>
+    <path d="M408 220 q 14 -8 26 -4"/>
+  </g>
+  <circle cx="428" cy="194" r="7" fill="#5d7d5e"/>
+  <circle cx="440" cy="212" r="6" fill="#5d7d5e"/>
+  <!-- 刻み葱 -->
+  <g fill="#7a9455">
+    <rect x="330" y="240" width="12" height="7" rx="3" transform="rotate(12 336 243)"/>
+    <rect x="480" y="256" width="12" height="7" rx="3" transform="rotate(-10 486 259)"/>
+    <rect x="368" y="286" width="12" height="7" rx="3" transform="rotate(6 374 289)"/>
+  </g>
+  <!-- 汁椀（右奥） -->
+  <g transform="translate(650 350)">
+    <ellipse cx="0" cy="62" rx="52" ry="8" fill="#000000" opacity="0.18"/>
+    <path d="M-48 14 q 6 44 48 54 q 42 -10 48 -54 z" fill="#a3492f"/>
+    <path d="M-43 14 a 43 22 0 0 1 86 0 z" fill="#b0543a"/>
+    <path d="M-48 14 l 96 0" stroke="#5f2718" stroke-width="3" opacity="0.6"/>
+  </g>
+  <!-- お新香（左奥） -->
+  <g transform="translate(150 356)">
+    <ellipse cx="0" cy="46" rx="44" ry="7" fill="#000000" opacity="0.16"/>
+    <path d="M-40 4 q 4 36 40 44 q 36 -8 40 -44 z" fill="#48604e"/>
+    <ellipse cx="0" cy="4" rx="40" ry="11" fill="#3a4f40"/>
+    <ellipse cx="0" cy="4" rx="31" ry="8" fill="#5d7d5e"/>
+    <circle cx="-10" cy="0" r="6" fill="#e2c393"/>
+    <circle cx="8" cy="4" r="6" fill="#d9a844"/>
+  </g>
+  <!-- 箸 -->
+  <g transform="rotate(-2 400 540)">
+    <rect x="190" y="532" width="420" height="7" rx="3.5" fill="#7a5a38"/>
+    <rect x="190" y="543" width="420" height="7" rx="3.5" fill="#8a6a44"/>
+    <rect x="216" y="524" width="32" height="32" rx="6" fill="#b5985a" opacity="0.9"/>
+  </g>
+  <g fill="#b5985a">
+    <circle cx="120" cy="130" r="3" opacity="0.45"/><circle cx="560" cy="86" r="3" opacity="0.4"/>
+    <circle cx="716" cy="210" r="3" opacity="0.35"/>
+  </g>
+</svg>
